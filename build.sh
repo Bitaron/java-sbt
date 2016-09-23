@@ -24,5 +24,4 @@ elif [ $env = "-h" ]
     activator -h
 else
     echo "Invalid command. Run -h"
-    activator -h
 fi
