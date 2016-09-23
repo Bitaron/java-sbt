@@ -10,9 +10,11 @@ How to run
 `./build.sh dev run`
 
 - For help
-`./build.sh`
+`./build.sh -h`
 
 
+
+** PLAY Related **
 
 This is your new Play application
 =================================
