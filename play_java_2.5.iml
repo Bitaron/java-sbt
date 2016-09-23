@@ -195,5 +195,7 @@
     <orderEntry type="library" name="SBT: com.typesafe.play:play-java_2.11:2.5.8:jar" level="project" />
     <orderEntry type="library" name="SBT: com.typesafe.play:play_2.11:2.5.8:jar" level="project" />
     <orderEntry type="library" name="SBT: com.typesafe.play:play-test_2.11:2.5.8:jar" level="project" />
+    <orderEntry type="library" name="SBT: org.fluentlenium:fluentlenium-core:0.10.9:jar" level="project" />
+    <orderEntry type="library" name="SBT: javax.persistence:persistence-api:1.0:jar" level="project" />
   </component>
 </module>
