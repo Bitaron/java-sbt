@@ -1,5 +1,6 @@
 package controllers;
 
+import models.DemoUser;
 import play.mvc.*;
 
 import views.html.*;
@@ -17,7 +18,9 @@ public class HomeController extends Controller {
      * <code>GET</code> request with a path of <code>/</code>.
      */
     public Result index() {
-        return ok(index.render("Your new application is ready."));
+        int id = DemoUser.insertAndGet();
+        System.out.println(id);
+        return ok(index.render("Your new application is ready. Db insertion with id " + id));
     }
 
 }
