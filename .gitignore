@@ -1,9 +1,8 @@
 logs
 target
-.idea
+.idea/workspace.xml
 /.idea_modules
 /.classpath
 /.project
 /.settings
 /RUNNING_PID
-play_java_2.5.iml
