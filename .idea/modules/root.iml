@@ -194,5 +194,6 @@
       </library>
     </orderEntry>
     <orderEntry type="library" name="SBT: com.typesafe.play:play-jdbc-evolutions_2.11:2.5.8:jar" level="project" />
+    <orderEntry type="library" name="SBT: mysql:mysql-connector-java:5.1.18:jar" level="project" />
   </component>
 </module>
