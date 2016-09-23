@@ -1,3 +1,19 @@
+How to run
+==========
+
+- Install java 8.
+- Install activator.
+- Create a DB called test.
+- Put Db credentials in conf/dev.conf
+- Run the following commands.
+`chmod +x build.sh`
+`./build.sh dev run`
+
+- For help
+`./build.sh`
+
+
+
 This is your new Play application
 =================================
 
@@ -47,3 +63,5 @@ Filters
 - ExampleFilter.java
 
   A simple filter that adds a header to every response.
+
+
